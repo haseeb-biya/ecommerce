@@ -1,0 +1,16 @@
+.search {
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  &:hover {
+    background-color: white;
+  }
+  width: 60%;
+  margin-left: auto;
+  padding: 5px;
+}
+.Nav_button {
+  margin: auto 10px;
+  padding: auto 10px;
+}
