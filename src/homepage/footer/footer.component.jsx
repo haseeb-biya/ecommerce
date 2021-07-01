@@ -4,9 +4,21 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
+import { makeStyles } from '@material-ui/core/styles';
+
+
+const useStyles = makeStyles((theme) => ({
+    footer: {
+        position:'relative',
+        [theme.breakpoints.down('sm')]: {
+            position:'relative'
+        },
+    },
+}))
 export const Footer = () => {
+    const classes = useStyles();
     return (
-        <footer>
+        <footer className={classes.footer}>
             <Box px={{ xs: 3, sm: 10 }} py={{ xs:5, sm:10}} bgcolor="text.secondary" color="white">
                 <Container max-width="lg">
                     <Grid container spacing={5}>
@@ -18,7 +30,7 @@ export const Footer = () => {
                             <Box>
                                 <Link href="/" color="inherit"><h3>Support</h3></Link>
                             </Box>
-                            <Box b>
+                            <Box >
                                 <Link href="/" color="inherit"><h3>Privacy</h3></Link>
                             </Box>
                         </Grid>
@@ -27,7 +39,7 @@ export const Footer = () => {
                             <Box >
                                 <Link href="/" color="inherit"><h3>Login</h3></Link>
                             </Box>
-                            <Box b>
+                            <Box >
                                 <Link href="/" color="inherit"><h3>Register</h3></Link>
                             </Box>
                         </Grid>

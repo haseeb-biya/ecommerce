@@ -1,3 +1,8 @@
-footer a {
-  font-size: large;
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  a {
+    font-size: large;
+  }
 }

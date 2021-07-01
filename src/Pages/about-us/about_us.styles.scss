@@ -1,0 +1,17 @@
+.about_box {
+  margin: 30px 0px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  justify-content: center;
+  height: 100%;
+  p {
+    margin: 10px 10px;
+    padding: 10px;
+  }
+  .about_title {
+    border-bottom: 1px solid rgb(207, 206, 206);
+    padding: 10px 10px;
+    font-weight: normal;
+    text-decoration: solid;
+  }
+}
