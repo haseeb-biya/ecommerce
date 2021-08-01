@@ -3,13 +3,13 @@ import 'firebase/firestore'
 import 'firebase/auth';
     
 const firebaseConfig = {
-    apiKey: "AIzaSyDjU0MLDiVqMO3nnnNNvmwmXFqsaUrsnms", 
-    authDomain: "ecomm-db-ae08f.firebaseapp.com",  
-    projectId: "ecomm-db-ae08f", 
-    storageBucket: "ecomm-db-ae08f.appspot.com", 
-    messagingSenderId: "749524910364",   
-    appId: "1:749524910364:web:4598d3304c72d5db683ad9",  
-    measurementId: "G-P76HZHSJYE"
+    apiKey: "", 
+    authDomain: "",  
+    projectId: "", 
+    storageBucket: "", 
+    messagingSenderId: "",   
+    appId: "",  
+    measurementId: ""
 }; 
  
 
