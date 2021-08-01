@@ -1,3 +1,6 @@
+This Project is created for Learning Purpose With React Concepts Such as Hooks,Saga,React Basics integration with Firebase
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
